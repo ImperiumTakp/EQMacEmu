@@ -29,6 +29,6 @@ jobs:
     - name: Checkout the code
       uses: actions/checkout@v4
     - name: Scan and upload dependency results
-      uses: anchore/sbom-action@bb716408e75840bbb01e839347cd213767269d4a
+      uses: anchore/sbom-action@v0
       with:
         path: ./
